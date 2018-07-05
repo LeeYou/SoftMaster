@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIDEF>
+  <font face="微软雅黑" size="12" colorText="#ffffff"/>
+  
+  <string>
+    <title value="电脑管家V6.0 [SOUI]"/>
+    <ver value="1.0"/>
+  </string>
+
+  <skin>
+
+	 <imgframe name="_skin.shadow" src="PNG:ID_PNG_SHADOW" left="5" top="3" right="5" bottom="7"/>
+	 
+	 <imglist name="_skin.btn.close" src="PNG:ID_PNG_BTN_CLOSE" states="3"/>
+    <imglist name="_skin.btn.menu" src="PNG:ID_PNG_BTN_MENU" states="3"/>
+    <imglist name="_skin.btn.min" src="PNG:ID_PNG_BTN_MIN" states="3"/>
+    <imglist name="_skin.btn.wis" src="PNG:ID_PNG_BTN_WIS" states="3"/>
+	
+	<imglist name="_skin.tabbar.status" src="PNG:ID_PNG_TABBAR_STATUS" states="3"/>
+	<imglist name="_skin.tabbar.download" src="PNG:ID_PNG_TABBAR_DOWNLOAD" states="2"/>
+	<imglist name="_skin.tabbar.softhouse" src="PNG:ID_PNG_TABBAR_SOFTHOUSE" states="2"/>
+	<imglist name="_skin.tabbar.theme" src="PNG:ID_PNG_TABBAR_THEME" states="2"/>
+	<imglist name="_skin.tabbar.unstall" src="PNG:ID_PNG_TABBAR_UNINSTALL" states="2"/>
+	<imglist name="_skin.tabbar.upgrade" src="PNG:ID_PNG_TABBAR_UPGRADE" states="2"/>
+	
+	<imglist name="_skin.common.checkbox" src="PNG:ID_PNG_COMM_CHECKBOX" states="8"/>
+	<imglist name="_skin.common.radio" src="PNG:ID_PNG_COMM_RADIO" states="6"/>
+	<!--搜索栏-->
+	 <imgframe name="_skin.searchbar.edit" src="PNG:ID_PNG_SEARCHBAR_EDIT" left="3" top="0" right="3" bottom="0"/>
+	 <imglist name="_skin.searchbar.search" src="PNG:ID_PNG_SEARCHBAR_SEARCH" states="3"/>
+	 
+	 <!--树控件ico-->
+	 <imgframe name="_skin.treeview.icon.normal" src="PNG:ID_PNG_ICON_NORMAL" />
+	 <imglist name="_skin.treeview.expand" src="PNG:ID_PNG_TREE_EXPAND" states="6"/>
+	 
+	 <tvvscrollbar name="_skin.treeview.vscroll" src="PNG:ID_PNG_SCOLLBAR" states="3" margin="3" hasgripper="0" />
+	 <vscrollbar name="_skin.vscroll2" src="PNG:ID_PNG_SCOLLBAR2" states="3" margin="3" hasgripper="0" />
+	 
+	<imgframe name="_skin.lcex.header" src="PNG:ID_PNG_LCEX_HEADER" states="4" margin-x="2" margin-y="2"/>
+	<imgframe name="_skin.lcex.header.arrow" src="PNG:ID_PNG_LCEX_HEADER_ARROW" states="2"  />
+	<imgframe name="_skin.lcex.selectrange" src="PNG:ID_PNG_LCEX_SELECTRANGE" margin-x="1" margin-y="1"/>
+	
+	<imgframe name="_skin.toolbar.btnonekey" src="PNG:ID_PNG_TOOLBAR_BTNONEKEY" states="4" left="4" top="4" right="4" bottom="4"/>
+	<imgframe name="_skin.toolbar.icononkey" src="PNG:ID_PNG_TOOLBAR_ICONONEKEY" />
+	<imgframe name="_skin.toolbar.iconupgrade" src="PNG:ID_PNG_TOOLBAR_ICONUPGRADE" />
+		
+	<imglist name="_skin.list.btn.download" src="PNG:ID_PNG_LIST_BTN_DOWNLOAD" states="3"/>
+	<imglist name="_skin.list.btn.download.menu" src="PNG:ID_PNG_LIST_BTN_DOWNLOAD_MENU" states="3"/>
+	<imglist name="_skin.list.btn.run" src="PNG:ID_PNG_LIST_BTN_RUN" states="3"/>
+	<imglist name="_skin.list.btn.run.menu" src="PNG:ID_PNG_LIST_BTN_RUN_MENU" states="3"/>
+	<imglist name="_skin.list.btn.upgrade" src="PNG:ID_PNG_LIST_BTN_UPGRADE" states="3"/>
+	<imglist name="_skin.list.btn.upgrade.menu" src="PNG:ID_PNG_LIST_BTN_UPGRADE_MENU" states="3"/>
+	<imglist name="_skin.list.btn.uninstall" src="PNG:ID_PNG_LIST_BTN_UNINSTALL" states="3"/>
+	<imglist name="_skin.list.btn.favorite" src="PNG:ID_PNG_LIST_BTN_FAVORITE" states="4"/>	
+	
+	<imgframe name="_skin.list.upgrade.empty" src="PNG:ID_PNG_LIST_UPGRADE_EMPTY"/>
+	<imglist name="_skin.list.history.delete" src="PNG:ID_PNG_LIST_HISTORY_DELETE" states="3"/>	
+	
+	
+	<imglist name="_skin.toolbar.btn.refresh" src="PNG:ID_PNG_TOOLBAR_BTNREFRESH" states="3"/>
+	
+	<button name="_skin.btn.color.normal" colorUp="#ffffff" colorDown="#ffffff" colorUpHover="#9aebce" colorDownHover="#9aebce" colorUpPush="#009a61" colorDownPush="#009a61"/>
+	
+	<button name="_skin.btn.color.selected" colorUp="#009a61" colorDown="#009a61" colorUpHover="#009a61" colorDownHover="#009a61" colorUpPush="#009a61" colorDownPush="#009a61"/>
+   
+	</skin>
+
+  <style> 
+    <class name="normalbtn" font="" colorText="#2B2B2B" colorTextDisable="#454545" textMode="0x25" cursor="hand" margin-x="0"/>
+    <class name="cls_btn_weblink" cursor="hand" colorText="#1e78d5" colorTextHover="#1e78d5" font="italic:1" fontHover="underline:1,italic:1" />
+	<class name="pagebtn" font="" colorText="#2B2B2B" colorTextDisable="#454545" textMode="0x25" cursor="hand" margin-x="0"/>
+
+    <class name="cls_title" colorText="#ffffff" font="face:微软雅黑,bold:1,size:13" />
+    <class name="font:bold" colorText="#000000" font="face:微软雅黑,bold:1,size:13" />
+    <class name="font:label" colorText="#000000" font="face:微软雅黑,bold:0,size:13" />
+
+    <class name="cls_link" cursor="hand" colorText="#1e78d5" colorTextHover="#1e78d5" font="" fontHover="underline:1"/>
+	<!-- <class name="cls_search_edit" ncSkin="_skin.searchbar.edit" margin-x="1" margin-y="1" />-->
+
+  </style>
+
+  <objattr>
+  </objattr>
+</UIDEF>

@@ -1,0 +1,60 @@
+﻿<include>
+  <window pos="0,0,-0,-0"> 
+	<window pos="0,0,200,-0" colorBkgnd="#FFFFFF"> 
+		 <treeview pos="0,0,-2,-0" name="tree_view_soft_list" itemHeight="-1" colorItemBkgnd="#555777" colorItemSelBkgnd="#cccccc" indent="10" colorItemSelText="#FFFFFF" sbSkin="_skin.treeview.vscroll" vscrollBar="1" autoVscroll="1" hscrollBar="0">
+			<template height="30" colorHover="#cccccc" colorSelected="#3dc193" trackMouseEvent="1" >
+				<toggle name="tgl_switch"  pos="[0,|0,@20,@20"  offset="0,-0.5" skin="_skin.sys.tree.toggle" tip="show how to use switch"/>
+				<img name="img_icon" pos="[0,5" width="16" height="16" skin="_skin.treeview.icon.normal"/>				
+				<text name="txt_name" pos="[5,{0,-60,-0" colorText="#ff0000" >text item</text> 
+				<text name="txt_count" pos="[0,{0,-0,-0" colorText="#A3A3A3" >text item</text> <!--这个要铺满-->
+			</template>	
+	    </treeview>
+	</window>
+	<window pos="200,0,-0,-55" >
+		   <mclistview name="mclv_test" colorBkgnd="@color/white" pos="10,5,-10,-2" headerHeight="30" sbSkin="_skin.vscroll2" vscrollBar="1" autoVscroll="1" hscrollBar="0">
+            <header align="center"   itemSwapEnable="1" fixWidth="0" font="underline:0,adding:-3" sortHeader="1" colorBkgnd="#ffffff" sortSkin="_skin.lcex.header.arrow" itemSkin="_skin.lcex.header" font="face:宋体,size:13" colorText="#919191">
+              <items>
+                <item width="380"></item>
+                <item width="95">大小</item>
+                <item width="95">日期</item>
+                <item width="150"></item>
+				<item width="60"></item>
+              </items>
+            </header>
+            <template itemHeight="60" colorHover="#fbffe6" colorSelected="#e0fbe8">
+              <window name="col1" clipClient="1">
+				<check name="check_sel" pos="10,20" skin="_skin.common.checkbox" />
+                <img  name="img_icon" skin="_skin.treeview.icon.normal" pos="[5,20,@16,@16"/>
+                <text name="txt_name" pos="[10,16" font="face:宋体,bold:1,size:14">火狐浏览器</text>
+                <text name="txt_desc" pos="{0,36,-10,-10" font="face:宋体,size:13" colorText="#999999">速度最快的浏览器</text>   
+              </window>
+              <window name="col2" clipClient="1">     
+				<text name="txt_size" pos="0,26,-0,-26" font="face:宋体,size:12" align="center" colorText="#8E8E8E">85.92M</text>
+              </window>
+              <window name="col3" clipClient="1">
+                <text name="txt_installtime" pos="0,26,-0,-26" font="face:宋体,size:12" align="center" colorText="#8E8E8E">2015-01-09</text>
+              </window>
+              <window  name="col4" clipClient="1">     							
+				<imgbtn pos="25,15" skin="_skin.list.btn.download" mouseRelay="1"  cursor="hand" text="下载安装"/>		
+				<imgbtn pos="[0,15" skin="_skin.list.btn.download.menu" mouseRelay="1"  cursor="hand"/>				
+              </window>
+              <window name="col5" clipClient="1">
+                <favorbutton name="btn_fav" pos="[0,17" skin="_skin.list.btn.favorite" mouseRelay="1"  cursor="hand"/>	
+              </window>
+            </template>
+          </mclistview>
+		  <window pos="10,5,-350,40" >
+			<text name="txt_tips" pos="0,2" font="face:微软雅黑,size:14" align="center" >今天捡到一块钱</text>
+		  </window>
+		  <window pos="-60,5,-60,40" >
+			 <imgbtn pos="0,2" skin="_skin.toolbar.btn.refresh" mouseRelay="1"  cursor="hand"/>	
+		  </window>
+	</window>
+	<window pos="{0,-55,-0,-0" colorBkgnd="#F4FFFB"> 	
+		<window pos="15,15" width="30" height="25" class="normalbtn">全选</window>
+		<window pos="[15,15" width="30" height="25" class="normalbtn">反选</window>
+		<window pos="[15,15" width="30" height="25" class="normalbtn">清空</window>
+		<custombutton name="btn_onekey" pos="[200,6"  height="41" width="130"	pushOffset="0,0"  skin="_skin.toolbar.btnonekey" icon="_skin.toolbar.icononkey"  iconIndex="0" colorText="#FFFFFF" colorTextPush="#242424" text="一键装机" cursor="hand"/>
+	</window>
+  </window>
+</include>

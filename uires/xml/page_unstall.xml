@@ -1,0 +1,37 @@
+﻿<include>
+  <window pos="0,0,-0,-0"> 
+	<mclistview name="mclv_unstall" colorBkgnd="#FFFFFF" pos="5,5,-1,-2" headerHeight="30" sbSkin="_skin.vscroll2" vscrollBar="1" autoVscroll="1" hscrollBar="0">
+            <header align="center"   itemSwapEnable="1" fixWidth="0" font="underline:0,adding:-3" sortHeader="1" colorBkgnd="#ffffff" sortSkin="_skin.lcex.header.arrow" itemSkin="_skin.lcex.header" font="face:宋体,size:13" colorText="#919191">
+              <items>
+                <item width="400">名称</item>
+                <item width="120">大小</item>
+                <item width="140">安装日期</item>
+                <item width="140">版本</item>
+				<item width="130"></item>
+              </items>
+            </header>
+            <template itemHeight="60" colorHover="#fbffe6" colorSelected="#e0fbe8">
+              <window name="col1" clipClient="1">
+				<check name="check_sel" pos="10,20" skin="_skin.common.checkbox" />
+                <img  name="img_icon" skin="_skin.treeview.icon.normal" pos="[5,20,@16,@16"/>
+                <text name="txt_name" pos="[10,16" font="face:宋体,bold:1,size:14">火狐浏览器</text>
+                <text name="txt_desc" pos="{0,36,-10,-10" font="face:宋体,size:13" colorText="#999999">速度最快的浏览器</text>   
+              </window>
+              <window name="col2" clipClient="1">     
+				<text name="txt_size" pos="0,26,-0,-26" font="face:宋体,size:12" align="center" colorText="#8E8E8E">85.92M</text>
+              </window>
+              <window name="col3" clipClient="1">
+                <text name="txt_installtime" pos="0,26,-0,-26" font="face:宋体,size:12" align="center" colorText="#8E8E8E">2015-01-09</text>
+              </window>
+              <window  name="col4" clipClient="1">     							
+				<text name="txt_ver" pos="0,26,-0,-26" font="face:宋体,size:12" align="center" colorText="#8E8E8E">1.0.0.1</text>			
+              </window>
+              <window name="col5" clipClient="1">
+               <imgbtn pos="25,15" skin="_skin.list.btn.uninstall" width="105" height="28" mouseRelay="1"  cursor="hand" text="卸载"/>		
+			  
+              </window>
+            </template>
+          </mclistview>
+		
+  </window>
+</include>

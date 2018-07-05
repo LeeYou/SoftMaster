@@ -1,20 +1,72 @@
 ﻿<resource>
   <UIDEF>
-    <file name="XML_INIT" path="uidef\init.xml"/>
+    <file name="XML_INIT" path="xml\init.xml"  />
   </UIDEF>
   <LAYOUT>
-    <file name="XML_MAINWND" path="xml\dlg_main.xml"/>
-      </LAYOUT>
-  
-  <values>
-  	<file name="string" path="values\string.xml"/>
-  	<file name="color" path="values\color.xml"/>
-  	<file name="skin" path="values\skin.xml"/>
-  </values>
-
+    <file name="XML_MAINWND" path="xml\dlg_main.xml"  />
+	 <file name="XML_PAGE_SOFTHOUSE" path="xml\page_softhouse.xml"  />
+	 <file name="XML_PAGE_DOWNLOAD" path="xml\page_download.xml"  />
+	 <file name="XML_PAGE_UNSTALL" path="xml\page_unstall.xml"  />
+	 <file name="XML_PAGE_UPGRADE" path="xml\page_upgrade.xml"  />
+  </LAYOUT>
   <IMG>
-          </IMG>
+  </IMG>
+  <PNG>
+    <file name="ID_PNG_SHADOW" path="image\shadow.png"/>
+	
+	<file name="ID_PNG_BTN_CLOSE" path="image\closebtn.png"/>
+	<file name="ID_PNG_BTN_MENU" path="image\menubtn.png"/>
+	<file name="ID_PNG_BTN_MIN" path="image\minbtn.png"/>
+	<file name="ID_PNG_BTN_WIS" path="image\wishbtn.png"/>
+	
+	<file name="ID_PNG_TABBAR_STATUS" path="image\tabbar\status.png"/>
+	<file name="ID_PNG_TABBAR_DOWNLOAD" path="image\tabbar\download.png"/>
+	<file name="ID_PNG_TABBAR_SOFTHOUSE" path="image\tabbar\softhouse.png"/>
+	<file name="ID_PNG_TABBAR_THEME" path="image\tabbar\theme.png"/>
+	<file name="ID_PNG_TABBAR_UNINSTALL" path="image\tabbar\uninstall.png"/>
+	<file name="ID_PNG_TABBAR_UPGRADE" path="image\tabbar\upgrade.png"/>
+	
+	<file name="ID_PNG_SEARCHBAR_EDIT" path="image\searchbar\edit.png"/>
+	<file name="ID_PNG_SEARCHBAR_SEARCH" path="image\searchbar\search.png"/>
+	
+	<file name="ID_PNG_ICON_NORMAL" path="image\common\icon_normal.png"/>
+	<file name="ID_PNG_TREE_EXPAND" path="image\common\expand.png"/>
+	<file name="ID_PNG_SCOLLBAR" path="image\common\scrollbar.png"/>
+	<file name="ID_PNG_SCOLLBAR2" path="image\common\scrollbar2.png"/>
+	<file name="ID_PNG_COMM_CHECKBOX" path="image\common\cm_check_btn.png"/>
+	<file name="ID_PNG_COMM_RADIO" path="image\common\cm_radio_btn.png"/>
+	
+	<file name="ID_PNG_LCEX_HEADER" path="image\list\lcex_header.png"/>
+	<file name="ID_PNG_LCEX_HEADER_ARROW" path="image\list\lcex_header_arrow.png"/>
+	<file name="ID_PNG_LCEX_SELECTRANGE" path="image\list\lcex_selectrange.png"/>
+	
+	
+	<file name="ID_PNG_LIST_BTN_DOWNLOAD" path="image\list\btn_download.png"/>
+	<file name="ID_PNG_LIST_BTN_DOWNLOAD_MENU" path="image\list\btn_download_menu.png"/>
+	
+	<file name="ID_PNG_LIST_BTN_RUN" path="image\list\btn_run.png"/>
+	<file name="ID_PNG_LIST_BTN_RUN_MENU" path="image\list\btn_run_menu.png"/>
+	
+	<file name="ID_PNG_LIST_BTN_UPGRADE" path="image\list\btn_upgrade.png"/>
+	<file name="ID_PNG_LIST_BTN_UPGRADE_MENU" path="image\list\btn_upgrade_menu.png"/>
+	
+	<file name="ID_PNG_LIST_BTN_UNINSTALL" path="image\list\btn_uninstall.png"/>
+	<file name="ID_PNG_LIST_BTN_FAVORITE" path="image\list\btn_favorite.png"/>
+	
+	<file name="ID_PNG_LIST_UPGRADE_EMPTY" path="image\list\upgrade_empty.png"/>
+	<file name="ID_PNG_LIST_HISTORY_DELETE" path="image\list\history_delete.png"/>
+	
+	
+	
+	<file name="ID_PNG_TOOLBAR_BTNONEKEY" path="image\toolbar\btn_onekey.png"/>
+	<file name="ID_PNG_TOOLBAR_ICONONEKEY" path="image\toolbar\icon_onekey.png"/>
+	<file name="ID_PNG_TOOLBAR_BTNREFRESH" path="image\toolbar\btn_refresh.png"/>
+	<file name="ID_PNG_TOOLBAR_ICONUPGRADE" path="image\toolbar\icon_upgrade.png"/>
+	
+	
+    
+  </PNG>
   <ICON>
-    <file name="ICON_LOGO"  path="image\soui.ico"/>
+    <file name="ICON_LOGO"  path="image\logo.ico" />
   </ICON>
-    </resource>
+</resource>
