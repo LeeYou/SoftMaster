@@ -2,7 +2,7 @@
 #include "main_tab_button.h"
 
 
-MainTabButton::MainTabButton() :m_pIconSkin(nullptr),
+MainTabButton::MainTabButton() :m_pIconSkin(NULL),
 m_nSepSize(5), m_ptPushOffet(2, 2)
 {
 }

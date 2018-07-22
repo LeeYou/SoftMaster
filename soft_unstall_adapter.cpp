@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "soft_unstall_adapter.h"
 #include "favor_button.h"
+#include <math.h>
 
 SoftUnstallAdapter::SoftUnstallAdapter()
 {

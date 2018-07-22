@@ -3,7 +3,7 @@
 //#include "base/thread_task_runner_handle.h"
 #include "soft_data_controller.h"
 
-BaseSoftStrip::BaseSoftStrip():view_(nullptr),
+BaseSoftStrip::BaseSoftStrip():view_(NULL),
 soft_data_controller_(new SoftDataController){
 	soft_list_.clear();
 }

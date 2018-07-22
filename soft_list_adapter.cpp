@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "soft_list_adapter.h"
 #include "favor_button.h"
+#include <math.h>
 
 SoftListAdapter::SoftListAdapter()
 {
